@@ -86,7 +86,7 @@ class ViewController: UIViewController, INUIAddVoiceShortcutViewControllerDelega
     }
     
     func addVoiceShortcutViewControllerDidCancel(_ controller: INUIAddVoiceShortcutViewController) {
-        self.balanceLabel.text = "Successfully added to Siri"
+        self.balanceLabel.text = "Failed to add shorcut to Siri"
         dismiss(animated: true, completion: nil)
     }
     
@@ -106,6 +106,7 @@ class ViewController: UIViewController, INUIAddVoiceShortcutViewControllerDelega
     }
     
     func editVoiceShortcutViewControllerDidCancel(_ controller: INUIEditVoiceShortcutViewController) {
+         self.balanceLabel.text = "Failed to add shorcut to Siri"
         dismiss(animated: true, completion: nil)
     }
 }
