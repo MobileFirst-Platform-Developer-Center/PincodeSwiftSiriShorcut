@@ -1,7 +1,7 @@
 IBM MobileFirst Platform Foundation
 ===
-## PinCodeSwiftSiriShorcut
-A sample application demonstrating use of the CredentialsValidation Security Check along with Apple's Siri Shorcut feature.
+## PinCodeSwiftSiriShortcut
+A sample application demonstrating use of the CredentialsValidation Security Check along with Apple's Siri Shortcut feature.
 
 ### Usage
 
@@ -18,7 +18,7 @@ A sample application demonstrating use of the CredentialsValidation Security Che
 
 3. Run the application in the iOS Simulator or physical device. Press the **Get Balance** button and enter "1234" to display the balance.
 
-4. Press the **Add to Siri** button to add the Siri Shorcut and fetch the balance from Siri.
+4. Press the **Add to Siri** button to add the Siri Shortcut and fetch the balance from Siri.
 
 > **Tip:** you can update the bundled SDK by running the command `pod update` from the project's root folder.
 
